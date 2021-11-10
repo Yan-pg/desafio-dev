@@ -1,3 +1,14 @@
+# Necessário 
+
+[Node.js](https://nodejs.org/en/)
+
+# Instruções 
+
+1. Rode em seu diretório de preferência o comando `git clone https://github.com/Yan-pg/desafio-dev.git`.
+2. Vá até a pasta front.
+3. Instale as dependecias `yarn`ou `npm install`.
+4. Rode o projeto `yarn start` ou `npm start`.
+
 # Desafio programação - para vaga desenvolvedor
 
 Por favor leiam este documento do começo ao fim, com muita atenção.
