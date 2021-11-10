@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    background: linear-gradient(180deg, #EEF3FA 0%, #D2E3F8 100%);
+    width: 100%;
+    height: 100vh;
+
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
