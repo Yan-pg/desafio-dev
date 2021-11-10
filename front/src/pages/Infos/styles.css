@@ -1,0 +1,17 @@
+.container-infos {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 16px;
+    margin: 10px;
+
+    background: #c5c5c5;
+}
+
+ @media (max-width: 700px) {
+    .container-infos {
+        display: grid;
+        grid-template-columns:repeat(3, 1fr) ;
+        gap: 1rem;
+    }
+} 
