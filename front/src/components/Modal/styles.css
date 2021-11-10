@@ -1,0 +1,50 @@
+.modal {
+    width: 100%;
+    height: 100vh;
+
+    z-index: 100;
+    position: fixed;
+    
+    background: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-modal {
+    width: 1200px;
+    height: 90vh;
+    background: #EEF3FA;
+    overflow: scroll;
+
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px 1px rgba(0, 0, 0, 0.09);
+
+    position: relative;
+
+}
+
+.content-modal button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+.content-modal::-webkit-scrollbar {
+    width: 5px; 
+  }
+  
+  .content-modal::-webkit-scrollbar-thumb {
+    background-color: #2DFE6D;
+    border-radius: 20px;
+    border: none;
+  }
+
+  .separador {
+    margin-bottom: 50px;
+  }
